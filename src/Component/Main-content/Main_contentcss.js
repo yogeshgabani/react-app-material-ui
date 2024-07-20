@@ -326,10 +326,10 @@ const Dashboard = styled.div`
             width: 5px !important;
         }
     }
-    .sales-report .css-1qdzy9k-MuiBarElement-root, .sales-report .MuiChartsLegend-series text {
+    .sales-report .css-1qdzy9k-MuiBarElement-root, .sales-report .MuiChartsLegend-series text, .css-yrgrvu {
         fill: rgb(77, 238, 234) !important;
     }
-    .sales-report .css-3dcfwk-MuiBarElement-root {
+    .sales-report .css-3dcfwk-MuiBarElement-root, .css-1qsjhi9 {
         fill:  rgba(77, 238, 234, 0.4);
     }
     .sales-report .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel {
@@ -353,20 +353,20 @@ const Dashboard = styled.div`
     .sales-report .MuiChartsAxis-line, .sales-report .MuiChartsAxis-tick{
         stroke: rgb(255 255 255 / 87%);
       }
-    .activity-log .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    .activity-log .css-1h9z7r5-MuiButtonBase-root-MuiTab-root, .css-1q2h7u5 {
         font-size: 12px;   
         color: #b0bbc7;
         min-height: unset;
         padding: 5px 0 !important;
     }
-    .activity-log .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected, .activity-log .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover {
+    .activity-log .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected, .activity-log .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover, .css-1q2h7u5.Mui-selected {
         color: #4deeea;
     }
     .activity-log .MuiTabs-indicator {
         bottom: 0px;
         background-color: #4deeea1a;
     }
-    .css-13xfq8m-MuiTabPanel-root {
+    .css-13xfq8m-MuiTabPanel-root, .css-19kzrtu {
         padding: 0;
     }
     .activity-log .css-1ujnqem-MuiTabs-root {
@@ -375,7 +375,7 @@ const Dashboard = styled.div`
     .table-data-one .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
         background-color: transparent !important;
     }
-    .table-data-one .css-1ygcj2i-MuiTableCell-root{
+    .table-data-one .css-1ygcj2i-MuiTableCell-root, .css-1bigob2{
         padding: 10px 15px;
         color: #9aa5b9;
         font-size: 14px;
@@ -386,7 +386,7 @@ const Dashboard = styled.div`
     }
     .table-data-one .css-1ex1afd-MuiTableCell-root, .task-data-detail .table-data-one .css-1q1u3t4-MuiTableRow-root  {
         border-bottom: 0;
-        width: 0;
+        // width: 0;
         @media (max-width: 480px) {
             padding: 10px;
           }
@@ -511,51 +511,51 @@ const Dashboard = styled.div`
         top: -8px;
         right: 0;
     }
-    .color-one .css-15gm0yv-MuiSlider-root {
+    .color-one .css-15gm0yv-MuiSlider-root, .color-one .css-6k4wph {
         color: #4deeea;
         padding: 0;
     }
-    .color-two .css-15gm0yv-MuiSlider-root {
+    .color-two .css-15gm0yv-MuiSlider-root, .color-two .css-6k4wph {
         color: #f9f871;
         padding: 0;
     }
-    .color-three .css-15gm0yv-MuiSlider-root {
+    .color-three .css-15gm0yv-MuiSlider-root, .color-three .css-6k4wph {
         color: #43ce85;
         padding: 0;
 
     }
-    .color-four .css-15gm0yv-MuiSlider-root {
+    .color-four .css-15gm0yv-MuiSlider-root, .color-four .css-6k4wph {
         color: #ffb67b;
         padding: 0;
     }
-    .color-five .css-15gm0yv-MuiSlider-root {
+    .color-five .css-15gm0yv-MuiSlider-root, .color-five .css-6k4wph {
         color: #7891ef;
         padding: 0;
     }
     .billing-section .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
         min-width: 50px;
     }
-    .billing-section .css-heg063-MuiTabs-flexContainer {
+    .billing-section .css-heg063-MuiTabs-flexContainer, .billing-section .css-k008qs {
         background: #4deeea0d;
         padding: 4px;
         gap: 10px;
         border-radius: 30px;
     }
-    .billing-section .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    .billing-section .css-1h9z7r5-MuiButtonBase-root-MuiTab-root, .billing-section .css-1q2h7u5 {
         font-size: 10px;
         color: #b0bbc7;
         font-weight: 300;
         padding: 3px 10px !important;
         line-height: unset;
     }
-    .billing-section .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover {
+    .billing-section .css-1h9z7r5-MuiButtonBase-root-MuiTab-root:hover, .billing-section .css-1q2h7u5:hover {
         color: #4deeea;
         background: #00000033;
         padding: 4px;
         border-radius: 30px;
 
     }
-    .billing-section .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    .billing-section .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected, .billing-section .css-1q2h7u5.Mui-selected {
         color: #4deeea;
         background: #4deeea1a;
         padding: 3px 10px !important;
@@ -683,6 +683,13 @@ const Dashboard = styled.div`
     .copy-right-end p a {
         color: #b0bbc7;
         padding: 0 5px;
+    }
+    .css-q34dxg {
+        border-bottom: none;
+    }
+    .css-1bigob2, .css-1gqug66  {
+        border: 1px solid #4deeea1a;
+        background-color: #ffffff08;
     }
 
 

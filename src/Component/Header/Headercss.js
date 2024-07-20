@@ -167,11 +167,11 @@ const Headerstyled = styled.div`
   .badge-title {
     color: rgb( 249, 248, 113 );
   }
-  .css-dlwkee-MuiBadge-badge {
+  .css-dlwkee-MuiBadge-badge, .css-h6q8c4 {
     background: rgb(249 248 113 / 20%);
     font-size: 10px;
   }
-  .menu-icon .css-rt4zii-MuiBadge-badge  {
+  .menu-icon .css-rt4zii-MuiBadge-badge, .css-detpop  {
     background: rgb( 77, 238, 234 );
     box-shadow: 0 0 0 rgb( 249, 248, 113 );
     position: relative;
@@ -181,7 +181,7 @@ const Headerstyled = styled.div`
     right: 17px;
     }
   }
- .menu-icon .css-rt4zii-MuiBadge-badge::after {
+ .menu-icon .css-rt4zii-MuiBadge-badge::after, .menu-icon .css-detpop::after {
     content: "";
     inset-block-start: -4px;
     inset-inline-end: -4px;
