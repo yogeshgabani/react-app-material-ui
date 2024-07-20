@@ -369,7 +369,7 @@ const Dashboard = styled.div`
     .css-13xfq8m-MuiTabPanel-root, .css-19kzrtu {
         padding: 0;
     }
-    .activity-log .css-1ujnqem-MuiTabs-root {
+    .activity-log .css-1ujnqem-MuiTabs-root, .activity-log .css-orq8zk {
         min-height: 0 !important;
     }
     .table-data-one .css-11xur9t-MuiPaper-root-MuiTableContainer-root, .table-data-one .css-13xy2my {
@@ -532,7 +532,7 @@ const Dashboard = styled.div`
         color: #7891ef;
         padding: 0;
     }
-    .billing-section .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    .billing-section .css-1h9z7r5-MuiButtonBase-root-MuiTab-root, .billing-section .css-1q2h7u5 {
         min-width: 50px;
     }
     .billing-section .css-heg063-MuiTabs-flexContainer, .billing-section .css-k008qs {
@@ -562,7 +562,7 @@ const Dashboard = styled.div`
         font-size: 10px;
         border-radius: 30px;
     }
-    .billing-section .css-1aquho2-MuiTabs-indicator  {
+    .billing-section .css-1aquho2-MuiTabs-indicator, .billing-section .css-ttwr4n  {
         display: none;
     }
     .bill-title{
