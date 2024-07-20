@@ -372,7 +372,7 @@ const Dashboard = styled.div`
     .activity-log .css-1ujnqem-MuiTabs-root {
         min-height: 0 !important;
     }
-    .table-data-one .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    .table-data-one .css-11xur9t-MuiPaper-root-MuiTableContainer-root, .table-data-one .css-13xy2my {
         background-color: transparent !important;
     }
     .table-data-one .css-1ygcj2i-MuiTableCell-root, .css-1bigob2{
@@ -476,7 +476,7 @@ const Dashboard = styled.div`
           }
     }
     .trans-history {
-        padding: 20px 0;
+        padding: 20px 0 0 0;
     }
     .trans-history .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
         box-shadow: none !important;
